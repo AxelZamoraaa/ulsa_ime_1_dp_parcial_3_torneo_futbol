@@ -90,3 +90,49 @@ void registrarEquipo(Equipo equipos[], int &total)
         cout << "La lista esta llena: ya hay " << MAX_EQUIPOS << " equipos registrados." << endl;
         return;
     }
+
+    string nombre;
+    bool correcto = false;
+
+    do
+    {
+        nombre = leerCadena("Nombre del equipo: ");
+
+        if (!nombreValido(nombre))
+        {
+            cout << "Nombre invalido: debe tener de " << MIN_CARACTERES_NOMBRE << " a "
+                 << MAX_CARACTERES_NOMBRE << " caracteres, solo letras sin acento, numeros o espacios." << endl;
+        }
+        else if (nombreRepetido(equipos, total, nombre))
+        {
+            cout << "Ese equipo ya esta registrado." << endl;
+        }
+        else
+        {
+            correcto = true;
+        }
+    } while (!correcto);
+
+    string abreviatura = crearAbreviatura(nombre, equipos, total);
+    iniciarEquipo(equipos[total], nombre, abreviatura);
+    total++;
+
+    cout << "Equipo registrado: " << nombre << " (" << abreviatura << ")" << endl;
+}
+
+void mostrarEquipos(const Equipo equipos[], int total)
+{
+    if (total == 0)
+    {
+        cout << "No hay equipos registrados." << endl;
+        return;
+    }
+
+    cout << "--- EQUIPOS REGISTRADOS ---" << endl;
+    cout << left << setw(4) << "#" << "EQUIPO" << endl;
+
+    for (int i = 0; i < total; i++)
+    {
+        cout << left << setw(4) << (i + 1) << equipos[i].nombre << endl;
+    }
+}
