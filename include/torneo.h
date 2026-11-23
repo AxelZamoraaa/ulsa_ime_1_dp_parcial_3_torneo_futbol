@@ -42,3 +42,11 @@ void iniciarEquipo(Equipo &equipo, string nombre, string abreviatura)
     equipo.gc = 0;
     equipo.pts = 0;
 }
+
+struct Partido
+{
+    int local;
+    int visitante;
+    int golesLocal;
+    int golesVisitante;
+};
