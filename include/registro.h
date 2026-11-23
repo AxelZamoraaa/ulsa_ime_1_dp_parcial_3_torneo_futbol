@@ -34,3 +34,59 @@ bool nombreValido(string nombre)
     }
     return true;
 }
+
+
+bool nombreRepetido(const Equipo equipos[], int total, string nombre)
+{
+    for (int i = 0; i < total; i++)
+    {
+        if (mismoNombre(equipos[i].nombre, nombre))
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+bool abreviaturaRepetida(const Equipo equipos[], int total, string abreviatura)
+{
+    for (int i = 0; i < total; i++)
+    {
+        if (equipos[i].abreviatura == abreviatura)
+        {
+            return true;
+        }
+    }
+    return false;
+}
+
+string crearAbreviatura(string nombre, const Equipo equipos[], int total)
+{
+    string abreviatura = "";
+
+    for (int i = 0; i < CARACTERES_ABREVIATURA; i++)
+    {
+        char letra = aMayuscula(nombre[i]);
+        if (letra == ' ')
+        {
+            letra = 'X';
+        }
+        abreviatura = abreviatura + letra;
+    }
+
+    char digito = '1';
+    while (abreviaturaRepetida(equipos, total, abreviatura))
+    {
+        abreviatura[CARACTERES_ABREVIATURA - 1] = digito;
+        digito++;
+    }
+    return abreviatura;
+}
+
+void registrarEquipo(Equipo equipos[], int &total)
+{
+    if (total >= MAX_EQUIPOS)
+    {
+        cout << "La lista esta llena: ya hay " << MAX_EQUIPOS << " equipos registrados." << endl;
+        return;
+    }
