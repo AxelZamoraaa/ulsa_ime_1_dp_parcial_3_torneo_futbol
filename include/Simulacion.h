@@ -82,3 +82,24 @@ bool simularTorneo(int totalEquipos, Partido partidos[], bool &simulado)
 }
 
 
+void mostrarResultados(const Equipo equipos[], const Partido partidos[], bool simulado)
+{
+    if (!simulado)
+    {
+        cout << "Primero debes simular el torneo." << endl;
+        return;
+    }
+
+    cout << "--- RESULTADOS DE LOS PARTIDOS ---" << endl;
+    cout << left << setw(4) << "#" << setw(17) << "LOCAL" << setw(10) << "MARCADOR" << "VISITANTE" << endl;
+
+    for (int i = 0; i < TOTAL_PARTIDOS; i++)
+    {
+        string marcador = to_string(partidos[i].golesLocal) + " - " + to_string(partidos[i].golesVisitante);
+
+        cout << left << setw(4) << (i + 1)
+             << setw(17) << equipos[partidos[i].local].nombre
+             << setw(10) << marcador
+             << equipos[partidos[i].visitante].nombre << endl;
+    }
+}
