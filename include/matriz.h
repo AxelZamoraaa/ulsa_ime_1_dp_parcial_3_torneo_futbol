@@ -1,3 +1,6 @@
+
+
+
 void mostrarReporteMatriz(const Equipo equipos[], const int goles[][MAX_EQUIPOS], bool simulado)
 {
     if (!simulado)
