@@ -36,9 +36,19 @@ int golesAFavor(const int goles[][MAX_EQUIPOS], int equipo)
     return suma;
 }
 
+int golesEnContra(const int goles[][MAX_EQUIPOS], int equipo)
+{
+    int suma = 0;
 
-
-
+    for (int rival = 0; rival < MAX_EQUIPOS; rival++)
+    {
+        if (rival != equipo)
+        {
+            suma = suma + goles[rival][equipo];
+        }
+    }
+    return suma;
+}
 
 
 
