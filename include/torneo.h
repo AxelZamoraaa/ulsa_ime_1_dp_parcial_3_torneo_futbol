@@ -50,3 +50,26 @@ struct Partido
     int golesLocal;
     int golesVisitante;
 };
+
+void registrarResultado(Equipo &equipo, int golesFavor, int golesContra)
+{
+    equipo.pj++;
+    equipo.gf = equipo.gf + golesFavor;
+    equipo.gc = equipo.gc + golesContra;
+
+    if (golesFavor > golesContra)
+    {
+        equipo.pg++;
+        equipo.pts = equipo.pts + PUNTOS_VICTORIA;
+    }
+    else if (golesFavor == golesContra)
+    {
+        equipo.pe++;
+        equipo.pts = equipo.pts + PUNTOS_EMPATE;
+    }
+    else
+    {
+        equipo.pp++;
+        equipo.pts = equipo.pts + PUNTOS_DERROTA;
+    }
+}
