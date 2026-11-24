@@ -27,7 +27,7 @@ Explica cada decisión y por qué la tomaste.
 
 **¿Qué funciones tiene tu módulo y qué tarea hace cada una?**
 
-[- `pedirModo()`: muestra las opciones, pide el modo y repite hasta que sea 1 o 2.
+[- `pedirModo()`: muestra las opciones, pide el modo y repite hasta que sea 1 o 2. (que es 1= aleatorio, 2= prueba)
 - `generarPartidos(partidos, modo)`: crea los 15 partidos y les asigna goles según el modo.
 - `simularTorneo(totalEquipos, partidos, simulado)`: valida que se pueda simular, pide el modo, genera los partidos y marca el torneo como simulado.
 - `mostrarResultados(equipos, partidos, simulado)`: imprime la tabla de resultados si ya se simuló.]
