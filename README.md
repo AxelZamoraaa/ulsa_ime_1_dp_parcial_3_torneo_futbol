@@ -76,13 +76,14 @@ Los 6 equipos que registran en el escenario obligatorio, en orden de registro.
 
 | # | Nombre | Abreviatura |
 | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-
+| # | Nombre | Abreviatura |
+| --- | --- | --- |
+| 1 | Aguilas | AGU |
+| 2 | Chivas | CHI |
+| 3 | CruzAzul  | CRU |
+| 4 | Leones | LEO |
+| 5 | Pumas | PUM |
+| 6 | Tigres | TIG |
 ## 7. Cálculo a mano
 
 Ejecuten una corrida en modo aleatorio y copien aquí sus 15 resultados.
