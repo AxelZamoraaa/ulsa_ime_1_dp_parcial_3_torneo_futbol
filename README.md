@@ -63,6 +63,7 @@ Escriban las decisiones que el equipo tomó y que el cálculo a mano necesita. P
 - **Campeón:** si hay empate en el primer lugar, se muestran los empatados y el usuario elige. Si elige una opción que no existe, se vuelve a preguntar.
 - **Mejor ataque y mejor defensa:** si hay empate se muestran todos los empatados, en orden de registro.
 
+
 ## 6. Equipos del escenario
 
 Los 6 equipos que registran en el escenario obligatorio, en orden de registro.
