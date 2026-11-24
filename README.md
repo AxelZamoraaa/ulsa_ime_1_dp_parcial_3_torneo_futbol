@@ -58,6 +58,10 @@ Escriban las decisiones que el equipo tomó y que el cálculo a mano necesita. P
 - **Partidos:** los 15 partidos van en este orden: equipo 1 contra 2 a 6, equipo 2 contra 3 a 6, y así hasta el equipo 5 contra el 6. El primero es el local.
 - **Goles:** cada equipo mete de 0 a 5 goles. Victoria 3 puntos, empate 1 punto, derrota 0.
 - **Simulación:** solo se simula una vez y solo con los 6 equipos registrados. Al simular se calcula la tabla y se llena la matriz.
+- **Reportes:** ninguno funciona antes de simular, excepto la lista de equipos.
+- **Tabla:** se ordena por puntos, de mayor a menor, sobre una copia. Si dos equipos tienen los mismos puntos quedan en su orden de registro. El arreglo original no se ordena.
+- **Campeón:** si hay empate en el primer lugar, se muestran los empatados y el usuario elige. Si elige una opción que no existe, se vuelve a preguntar.
+- **Mejor ataque y mejor defensa:** si hay empate se muestran todos los empatados, en orden de registro.
 
 ## 6. Equipos del escenario
 
