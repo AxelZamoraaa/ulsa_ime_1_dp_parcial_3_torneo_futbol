@@ -6,7 +6,7 @@
 
 | Módulo | Matrícula | Nombre | Usuario de GitHub | Tema |
 | --- | --- | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Registro de equipos |
+| 1 | [26295] | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Registro.h |
 | 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Simulación de partidos |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Tabla de posiciones |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Clasificación y campeón |
@@ -17,9 +17,15 @@
 
 ## 2. Opciones del menú
 
-Escriban las opciones del menú en el orden en que aparecen en el programa.
-
-[Inserta aquí tu respuesta]
+1. Registrar equipo
+2. Mostrar equipos
+3. Simular torneo
+4. Mostrar resultados
+5. Mostrar tabla de posiciones
+6. Mostrar campeon
+7. Consultar equipo
+8. Mostrar matriz de enfrentamientos
+9. Salir 
 
 ## 3. Cómo compilar y ejecutar
 
@@ -70,13 +76,14 @@ Los 6 equipos que registran en el escenario obligatorio, en orden de registro.
 
 | # | Nombre | Abreviatura |
 | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-
+| # | Nombre | Abreviatura |
+| --- | --- | --- |
+| 1 | Aguilas | AGU |
+| 2 | Chivas | CHI |
+| 3 | CruzAzul  | CRU |
+| 4 | Leones | LEO |
+| 5 | Pumas | PUM |
+| 6 | Tigres | TIG |
 ## 7. Cálculo a mano
 
 Ejecuten una corrida en modo aleatorio y copien aquí sus 15 resultados.
