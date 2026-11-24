@@ -57,7 +57,18 @@ Describan cada TDA que diseñaron como registro (`struct`): qué datos guarda, q
 
 Escriban las decisiones que el equipo tomó y que el cálculo a mano necesita. Por ejemplo: cómo se obtiene la abreviatura y qué pasa si dos se repiten.
 
-[Inserta aquí tu respuesta]
+- **Nombre del equipo:** de 3 a 15 caracteres. Solo acepta letras sin acento ni ñ, números y espacios. No puede empezar con espacio. No se distinguen mayúsculas de minúsculas (`Pumas` y `pumas` son el mismo equipo).
+- **Abreviatura:** se calcula automáticamente con las primeras 3 letras del nombre, en mayúsculas (`Aguilas` → `AGU`). Si un espacio cae en esas 3 letras se cambia por `X`.
+- **Abreviatura repetida:** si ya existe, se cambia la tercera letra por un número, empezando en 1, hasta que no se repita (`Pumas` → `PUM`, `Pumitas` → `PU1`, `Pumax` → `PU2`).
+- **Equipos:** se registran de uno en uno, hasta 6. El orden de registro se conserva en equipos, ficha y matriz.
+- **Partidos:** los 15 partidos van en este orden: equipo 1 contra 2 a 6, equipo 2 contra 3 a 6, y así hasta el equipo 5 contra el 6. El primero es el local.
+- **Goles:** cada equipo mete de 0 a 5 goles. Victoria 3 puntos, empate 1 punto, derrota 0.
+- **Simulación:** solo se simula una vez y solo con los 6 equipos registrados. Al simular se calcula la tabla y se llena la matriz.
+- **Reportes:** ninguno funciona antes de simular, excepto la lista de equipos.
+- **Tabla:** se ordena por puntos, de mayor a menor, sobre una copia. Si dos equipos tienen los mismos puntos quedan en su orden de registro. El arreglo original no se ordena.
+- **Campeón:** si hay empate en el primer lugar, se muestran los empatados y el usuario elige. Si elige una opción que no existe, se vuelve a preguntar.
+- **Mejor ataque y mejor defensa:** si hay empate se muestran todos los empatados, en orden de registro.
+
 
 ## 6. Equipos del escenario
 
