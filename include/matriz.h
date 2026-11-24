@@ -1,8 +1,54 @@
+#pragma once
 
+#include <iostream>
+#include <iomanip>
+#include <string>
+#include "torneo.h"
 
+void llenarMatriz(const Partido partidos[], int goles[][MAX_EQUIPOS])
+{
+    for (int i = 0; i < MAX_EQUIPOS; i++)
+    {
+        for (int j = 0; j < MAX_EQUIPOS; j++)
+        {
+            goles[i][j] = 0;
+        }
+    }
 
+    for (int p = 0; p < TOTAL_PARTIDOS; p++)
+    {
+        goles[partidos[p].local][partidos[p].visitante] = partidos[p].golesLocal;
+        goles[partidos[p].visitante][partidos[p].local] = partidos[p].golesVisitante;
+    }
+}
 
+int golesAFavor(const int goles[][MAX_EQUIPOS], int equipo)
+{
+    int suma = 0;
 
+    for (int rival = 0; rival < MAX_EQUIPOS; rival++)
+    {
+        if (rival != equipo)
+        {
+            suma = suma + goles[equipo][rival];
+        }
+    }
+    return suma;
+}
+
+int golesEnContra(const int goles[][MAX_EQUIPOS], int equipo)
+{
+    int suma = 0;
+
+    for (int rival = 0; rival < MAX_EQUIPOS; rival++)
+    {
+        if (rival != equipo)
+        {
+            suma = suma + goles[rival][equipo];
+        }
+    }
+    return suma;
+}
 
 
 
