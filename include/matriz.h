@@ -22,6 +22,20 @@ void llenarMatriz(const Partido partidos[], int goles[][MAX_EQUIPOS])
     }
 }
 
+int golesAFavor(const int goles[][MAX_EQUIPOS], int equipo)
+{
+    int suma = 0;
+
+    for (int rival = 0; rival < MAX_EQUIPOS; rival++)
+    {
+        if (rival != equipo)
+        {
+            suma = suma + goles[equipo][rival];
+        }
+    }
+    return suma;
+}
+
 
 
 
