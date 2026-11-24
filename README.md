@@ -51,7 +51,10 @@ Describan cada TDA que diseñaron como registro (`struct`): qué datos guarda, q
 
 Escriban las decisiones que el equipo tomó y que el cálculo a mano necesita. Por ejemplo: cómo se obtiene la abreviatura y qué pasa si dos se repiten.
 
-[Inserta aquí tu respuesta]
+- **Nombre del equipo:** de 3 a 15 caracteres. Solo acepta letras sin acento ni ñ, números y espacios. No puede empezar con espacio. No se distinguen mayúsculas de minúsculas (`Pumas` y `pumas` son el mismo equipo).
+- **Abreviatura:** se calcula automáticamente con las primeras 3 letras del nombre, en mayúsculas (`Aguilas` → `AGU`). Si un espacio cae en esas 3 letras se cambia por `X`.
+- **Abreviatura repetida:** si ya existe, se cambia la tercera letra por un número, empezando en 1, hasta que no se repita (`Pumas` → `PUM`, `Pumitas` → `PU1`, `Pumax` → `PU2`).
+
 
 ## 6. Equipos del escenario
 
