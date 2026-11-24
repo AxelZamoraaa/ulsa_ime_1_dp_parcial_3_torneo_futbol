@@ -27,17 +27,17 @@ Explica cada decisión y por qué la tomaste.
 
 **¿Qué funciones tiene tu módulo y qué tarea hace cada una?**
 
-[- `pedirModo()`: muestra las opciones, pide el modo y repite hasta que sea 1 o 2. (que es 1= aleatorio, 2= prueba)
-- `generarPartidos(partidos, modo)`: crea los 15 partidos y les asigna goles según el modo.
-- `simularTorneo(totalEquipos, partidos, simulado)`: valida que se pueda simular, pide el modo, genera los partidos y marca el torneo como simulado.
-- `mostrarResultados(equipos, partidos, simulado)`: imprime la tabla de resultados si ya se simuló.]
+[ `pedirModo()`: muestra las opciones, pide el modo y repite hasta que sea 1 o 2. (que es 1= aleatorio, 2= prueba)
+ `generarPartidos(partidos, modo)`: crea los 15 partidos y les asigna goles según el modo (alwatorio o de prueba).
+`simularTorneo(totalEquipos, partidos, simulado)`: comprueba que se pueda simular, pide el modo, genera los partidos y marca el torneo como simulado.
+ `mostrarResultados(equipos, partidos, simulado)`: imprime la tabla de resultados si ya se simuló.]
 
 **¿Qué estructuras de datos usa tu módulo (registros, arreglos, matrices o apuntadores), por qué las elegiste y cómo pasas los datos a cada función (por valor, por referencia, como arreglo o con un apuntador)?**
 
-[- Arreglo de `Partido` (`partidos[]`): cada partido junta local, visitante y goles en un registro, así que es más claro que usar cuatro arreglos separados. Se pasa como arreglo, lo que equivale a pasar su dirección, por eso `generarPartidos` y `simularTorneo` lo llenan directamente.
-- Arreglo de `Equipo` (`equipos[]`): solo se lee para obtener los nombres, por eso se pasa como `const`. `Partido` guarda el índice del equipo y no su nombre, para no duplicar datos.
-- Matriz `GOLES_PRUEBA` (15 filas, 2 columnas): guarda los marcadores del modo de prueba. Se accede con `COLUMNA_LOCAL` y `COLUMNA_VISITANTE`.
-- Paso de parámetros: `totalEquipos` y `modo` por valor, porque solo se leen. `simulado` por referencia (`bool &`), porque la función necesita cambiarlo y que el cambio se vea afuera. `partidos` y `equipos` como arreglo.]
+[ arreglo de `Partido` : cada partido junta local, visitante y goles en un registro, así que es más claro que usar cuatro arreglos separados. Se pasa como arreglo por eso `generarPartidos` y `simularTorneo` lo llenan directamente.
+Arreglo de `Equipo`: solo se lee para obtener los nombres por eso se pasa como `const`. Y `Partido` guarda el índice del equipo y no su nombre, para no duplicar datos.
+Matriz `GOLES_PRUEBA` : guarda los marcadores del modo de prueba. Se accede con `COLUMNA_LOCAL` y `COLUMNA_VISITANTE`.
+Paso de parámetros: `totalEquipos` y `modo` por valor porque solo se leen. `simulado` por referencia (`bool &`), porque la función necesita cambiarlo y que el cambio se vea afuera. `partidos` y `equipos` como arreglo.]
 
 **¿Dónde demuestras los temas asignados a tu módulo?**
 
