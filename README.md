@@ -10,12 +10,7 @@
 | 2 | [26160] | [Luis Cortes Gallegos] | [luiscortesg08] | Simulación de partidos |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Tabla de posiciones |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Clasificación y campeón |
-<<<<<<< Updated upstream
-| 5 | [26165] | [Pablo Mussa] | [Pablomussa] | consultas.h |
-=======
-| 5 | [26165] | [Pablo Mussa Rocha] | [Pablomussa] | consultas.h |
->>>>>>> Stashed changes
-| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Matriz de enfrentamientos |
+ 5 | [26165] | [Pablo Mussa] | [Pablomussa] | consultas.h |
 
 > **Nota:** en los equipos de 5 integrantes, todos contribuyen al módulo 6. En esa fila escriban "Todo el equipo".
 
