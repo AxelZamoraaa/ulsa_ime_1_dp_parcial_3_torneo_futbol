@@ -76,3 +76,4 @@ void registrarResultado(Equipo &equipo, int golesFavor, int golesContra)
 bool mismoNombre(string nombre1, string nombre2)
 {
     return textoEnMinusculas(nombre1) == textoEnMinusculas(nombre2);
+}
