@@ -2,7 +2,7 @@
 #include "torneo.h"
 #include "utilerias.h"
 #include "registro.h"
-#include "simulacion.h"
+#include "Simulacion.h"
 #include "tabla.h"
 #include "campeon.h"
 #include "consultas.h"
