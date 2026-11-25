@@ -7,10 +7,14 @@
 | Módulo | Matrícula | Nombre | Usuario de GitHub | Tema |
 | --- | --- | --- | --- | --- |
 | 1 | [26295] | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Registro.h |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Simulación de partidos |
+| 2 | [26160] | [Luis Cortes Gallegos] | [luiscortesg08] | Simulación de partidos |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Tabla de posiciones |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Clasificación y campeón |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Consultas |
+<<<<<<< Updated upstream
+| 5 | [26165] | [Pablo Mussa] | [Pablomussa] | consultas.h |
+=======
+| 5 | [26165] | [Pablo Mussa Rocha] | [Pablomussa] | consultas.h |
+>>>>>>> Stashed changes
 | 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Matriz de enfrentamientos |
 
 > **Nota:** en los equipos de 5 integrantes, todos contribuyen al módulo 6. En esa fila escriban "Todo el equipo".
@@ -114,12 +118,31 @@ Antes de consultar los demás reportes de esa corrida, calculen a mano los resul
 [Inserta aquí tu respuesta]
 
 ## 8. Receta del menú
+<<<<<<< Updated upstream
 
-Receta en pseudocódigo del programa principal: el menú y cómo se conecta con cada módulo.
-
-```
-[Inserta aquí tu respuesta]
-```
+=======
+>>>>>>> Stashed changes
+1. Crear el arreglo de equipos, el arreglo de partidos y la matriz de goles
+2. Poner totalEquipos en 0 y simulado en falso
+1. Repetir
+   3.1 Mostrar el menú
+   3.2 Leer la opción
+   3.3 Si la opción es 1: llamar a registrarEquipo (módulo 1)
+   3.4 Si no, si la opción es 2: llamar a mostrarEquipos (módulo 1)
+   3.5 Si no, si la opción es 3:
+       3.5.1 Llamar a simularTorneo (módulo 2)
+       3.5.2 Si se pudo simular:
+             - llamar a calcularTabla (módulo 3)
+             - llamar a llenarMatriz (módulo 6)
+   3.6 Si no, si la opción es 4: llamar a mostrarResultados (módulo 2)
+   3.7 Si no, si la opción es 5: llamar a mostrarTabla (módulo 4)
+   3.8 Si no, si la opción es 6: llamar a mostrarCampeon (módulo 4)
+   3.9 Si no, si la opción es 7: llamar a consultarEquipo (módulo 5)
+   3.10 Si no, si la opción es 8: llamar a mostrarReporteMatriz (módulo 6)
+   3.11 Si no, si la opción es 9: mostrar "Hasta luego"
+   3.12 Si no: mostrar "Opción inválida" y volver al menú
+1. Hasta que la opción sea 9
+2. Terminar el programa
 
 ## 9. Documentación individual
 
@@ -127,11 +150,11 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 | Módulo | Documentación | Propuesta de mejora |
 | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 | [docs/26295/modulo.md] | [docs/mejoras/26295/mejora.md] |
+| 2 | [docs/26160/modulo.md] | [docs/mejoras/26160/mejora.md] |
+| 3 | [docs/26209/modulo.md] | [docs/mejoras/26209/mejora.md] |
+| 4 | [docs/26159/modulo.md] | [docs/mejoras/26159/mejora.md] |
+| 5 | [docs/123456/modulo.md] | [docs/mejoras/123456/mejora.md] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el módulo 6. En equipos de cinco, agreguen una fila con el enlace a docs/modulo_6/modulo.md, sin propuesta de mejora. -->
 

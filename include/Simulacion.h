@@ -51,8 +51,8 @@ void generarPartidos(Partido partidos[], int modo)
             }
             else
             {
-                partidos[numeroPartido].golesLocal = numeroAleatorio(MIN_GOLES, MAX_GOLES);
-                partidos[numeroPartido].golesVisitante = numeroAleatorio(MIN_GOLES, MAX_GOLES);
+                partidos[numeroPartido].golesLocal = numeroAleatorio();
+                partidos[numeroPartido].golesVisitante = numeroAleatorio();
             }
             numeroPartido++;
         }
