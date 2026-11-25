@@ -73,10 +73,7 @@ void registrarResultado(Equipo &equipo, int golesFavor, int golesContra)
         equipo.pts = equipo.pts + PUNTOS_DERROTA;
     }
 }
-bool mismoNombre(string nombre1, string nombre2)
-{
-
-    char aMayuscula(char letra)
+char aMayuscula(char letra)
 {
     if (letra >= 'a' && letra <= 'z')
     {
@@ -103,5 +100,8 @@ string textoEnMinusculas(string texto)
     }
     return texto;
 }
+
+bool mismoNombre(string nombre1, string nombre2)
+{
     return textoEnMinusculas(nombre1) == textoEnMinusculas(nombre2);
 }
