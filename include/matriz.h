@@ -67,7 +67,6 @@ void mostrarReporteMatriz(const Equipo equipos[], const int goles[][MAX_EQUIPOS]
     cout << endl;
     mostrarMejorAtaque(equipos, goles);
     mostrarMejorDefensa(equipos, goles);
- HEAD
 }  
 
 void mostrarMejorAtaque(const Equipo equipos[], const int goles[][MAX_EQUIPOS])
