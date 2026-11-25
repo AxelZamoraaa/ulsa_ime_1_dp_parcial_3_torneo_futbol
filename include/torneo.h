@@ -75,5 +75,33 @@ void registrarResultado(Equipo &equipo, int golesFavor, int golesContra)
 }
 bool mismoNombre(string nombre1, string nombre2)
 {
+
+    char aMayuscula(char letra)
+{
+    if (letra >= 'a' && letra <= 'z')
+    {
+        letra = letra - ('a' - 'A');
+    }
+    return letra;
+}
+
+char aMinuscula(char letra)
+{
+    if (letra >= 'A' && letra <= 'Z')
+    {
+        letra = letra + ('a' - 'A');
+    }
+    return letra;
+}
+
+string textoEnMinusculas(string texto)
+{
+    int largo = texto.length();
+    for (int i = 0; i < largo; i++)
+    {
+        texto[i] = aMinuscula(texto[i]);
+    }
+    return texto;
+}
     return textoEnMinusculas(nombre1) == textoEnMinusculas(nombre2);
 }
