@@ -127,11 +127,11 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 | Módulo | Documentación | Propuesta de mejora |
 | --- | --- | --- |
-| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 1 | [docs/26295/modulo.md] | [docs/mejoras/26295/mejora.md] |
+| 2 | [docs/26160/modulo.md] | [docs/mejoras/26160/mejora.md] |
+| 3 | [docs/26209/modulo.md] | [docs/mejoras/26209/mejora.md] |
+| 4 | [docs/26159/modulo.md] | [docs/mejoras/26159/mejora.md] |
+| 5 | [docs/123456/modulo.md] | [docs/mejoras/123456/mejora.md] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el módulo 6. En equipos de cinco, agreguen una fila con el enlace a docs/modulo_6/modulo.md, sin propuesta de mejora. -->
 
