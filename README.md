@@ -6,8 +6,8 @@
 
 | Módulo | Matrícula | Nombre | Usuario de GitHub | Tema |
 | --- | --- | --- | --- | --- |
-| 1 | [26295] | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Registro.h |
-| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Simulación de partidos |
+| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Registro de equipos |
+| 2 | [26160] | [Luis Cortés] | [luiscortesg08] | Simulación de partidos |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Tabla de posiciones |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Clasificación y campeón |
 | 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Consultas |
@@ -17,15 +17,9 @@
 
 ## 2. Opciones del menú
 
-1. Registrar equipo
-2. Mostrar equipos
-3. Simular torneo
-4. Mostrar resultados
-5. Mostrar tabla de posiciones
-6. Mostrar campeon
-7. Consultar equipo
-8. Mostrar matriz de enfrentamientos
-9. Salir 
+Escriban las opciones del menú en el orden en que aparecen en el programa.
+
+[Inserta aquí tu respuesta]
 
 ## 3. Cómo compilar y ejecutar
 
@@ -57,18 +51,7 @@ Describan cada TDA que diseñaron como registro (`struct`): qué datos guarda, q
 
 Escriban las decisiones que el equipo tomó y que el cálculo a mano necesita. Por ejemplo: cómo se obtiene la abreviatura y qué pasa si dos se repiten.
 
-- **Nombre del equipo:** de 3 a 15 caracteres. Solo acepta letras sin acento ni ñ, números y espacios. No puede empezar con espacio. No se distinguen mayúsculas de minúsculas (`Pumas` y `pumas` son el mismo equipo).
-- **Abreviatura:** se calcula automáticamente con las primeras 3 letras del nombre, en mayúsculas (`Aguilas` → `AGU`). Si un espacio cae en esas 3 letras se cambia por `X`.
-- **Abreviatura repetida:** si ya existe, se cambia la tercera letra por un número, empezando en 1, hasta que no se repita (`Pumas` → `PUM`, `Pumitas` → `PU1`, `Pumax` → `PU2`).
-- **Equipos:** se registran de uno en uno, hasta 6. El orden de registro se conserva en equipos, ficha y matriz.
-- **Partidos:** los 15 partidos van en este orden: equipo 1 contra 2 a 6, equipo 2 contra 3 a 6, y así hasta el equipo 5 contra el 6. El primero es el local.
-- **Goles:** cada equipo mete de 0 a 5 goles. Victoria 3 puntos, empate 1 punto, derrota 0.
-- **Simulación:** solo se simula una vez y solo con los 6 equipos registrados. Al simular se calcula la tabla y se llena la matriz.
-- **Reportes:** ninguno funciona antes de simular, excepto la lista de equipos.
-- **Tabla:** se ordena por puntos, de mayor a menor, sobre una copia. Si dos equipos tienen los mismos puntos quedan en su orden de registro. El arreglo original no se ordena.
-- **Campeón:** si hay empate en el primer lugar, se muestran los empatados y el usuario elige. Si elige una opción que no existe, se vuelve a preguntar.
-- **Mejor ataque y mejor defensa:** si hay empate se muestran todos los empatados, en orden de registro.
-
+[Inserta aquí tu respuesta]
 
 ## 6. Equipos del escenario
 
@@ -76,14 +59,13 @@ Los 6 equipos que registran en el escenario obligatorio, en orden de registro.
 
 | # | Nombre | Abreviatura |
 | --- | --- | --- |
-| # | Nombre | Abreviatura |
-| --- | --- | --- |
-| 1 | Aguilas | AGU |
-| 2 | Chivas | CHI |
-| 3 | CruzAzul  | CRU |
-| 4 | Leones | LEO |
-| 5 | Pumas | PUM |
-| 6 | Tigres | TIG |
+| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 2 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+
 ## 7. Cálculo a mano
 
 Ejecuten una corrida en modo aleatorio y copien aquí sus 15 resultados.
@@ -127,11 +109,11 @@ Enlace a la documentación y a la propuesta de mejora de cada integrante.
 
 | Módulo | Documentación | Propuesta de mejora |
 | --- | --- | --- |
-| 1 | [docs/26295/modulo.md] | [docs/mejoras/26295/mejora.md] |
-| 2 | [docs/26160/modulo.md] | [docs/mejoras/26160/mejora.md] |
-| 3 | [docs/26209/modulo.md] | [docs/mejoras/26209/mejora.md] |
-| 4 | [docs/26159/modulo.md] | [docs/mejoras/26159/mejora.md] |
-| 5 | [docs/123456/modulo.md] | [docs/mejoras/123456/mejora.md] |
+| 1 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 2 | [ docs/26160/modulo.h ] | [ Registro de goleadores ] |
+| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
 
 <!-- Si el equipo es de seis integrantes, agreguen una fila para el módulo 6. En equipos de cinco, agreguen una fila con el enlace a docs/modulo_6/modulo.md, sin propuesta de mejora. -->
 
