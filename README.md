@@ -10,7 +10,11 @@
 | 2 | [26160] | [Luis Cortes Gallegos] | [luiscortesg08] | Simulación de partidos |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Tabla de posiciones |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Clasificación y campeón |
+<<<<<<< Updated upstream
 | 5 | [26165] | [Pablo Mussa] | [Pablomussa] | consultas.h |
+=======
+| 5 | [26165] | [Pablo Mussa Rocha] | [Pablomussa] | consultas.h |
+>>>>>>> Stashed changes
 | 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Matriz de enfrentamientos |
 
 > **Nota:** en los equipos de 5 integrantes, todos contribuyen al módulo 6. En esa fila escriban "Todo el equipo".
@@ -114,7 +118,10 @@ Antes de consultar los demás reportes de esa corrida, calculen a mano los resul
 [Inserta aquí tu respuesta]
 
 ## 8. Receta del menú
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 1. Crear el arreglo de equipos, el arreglo de partidos y la matriz de goles
 2. Poner totalEquipos en 0 y simulado en falso
 1. Repetir
