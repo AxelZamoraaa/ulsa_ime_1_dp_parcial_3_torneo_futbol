@@ -67,4 +67,60 @@ void mostrarReporteMatriz(const Equipo equipos[], const int goles[][MAX_EQUIPOS]
     cout << endl;
     mostrarMejorAtaque(equipos, goles);
     mostrarMejorDefensa(equipos, goles);
+}  
+
+void mostrarMejorAtaque(const Equipo equipos[], const int goles[][MAX_EQUIPOS])
+{
+    int mayor = golesAFavor(goles, 0);
+    for (int i = 1; i < MAX_EQUIPOS; i++)
+    {
+        if (golesAFavor(goles, i) > mayor)
+        {
+            mayor = golesAFavor(goles, i);
+        }
+    }
+
+    cout << "Mejor ataque: ";
+    bool primero = true;
+    for (int i = 0; i < MAX_EQUIPOS; i++)
+    {
+        if (golesAFavor(goles, i) == mayor)
+        {
+            if (!primero)
+            {
+                cout << ", ";
+            }
+            cout << equipos[i].nombre;
+            primero = false;
+        }
+    }
+    cout << " (" << mayor << " goles a favor)" << endl;
+}
+
+void mostrarMejorDefensa(const Equipo equipos[], const int goles[][MAX_EQUIPOS])
+{
+    int menor = golesEnContra(goles, 0);
+    for (int i = 1; i < MAX_EQUIPOS; i++)
+    {
+        if (golesEnContra(goles, i) < menor)
+        {
+            menor = golesEnContra(goles, i);
+        }
+    }
+
+    cout << "Mejor defensa: ";
+    bool primero = true;
+    for (int i = 0; i < MAX_EQUIPOS; i++)
+    {
+        if (golesEnContra(goles, i) == menor)
+        {
+            if (!primero)
+            {
+                cout << ", ";
+            }
+            cout << equipos[i].nombre;
+            primero = false;
+        }
+    }
+    cout << " (" << menor << " goles en contra)" << endl;
 }
