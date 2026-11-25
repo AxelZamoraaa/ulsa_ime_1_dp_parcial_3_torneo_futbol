@@ -10,7 +10,7 @@
 | 2 | [26160] | [Luis Cortes Gallegos] | [luiscortesg08] | Simulación de partidos |
 | 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Tabla de posiciones |
 | 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Clasificación y campeón |
-| 5 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Consultas |
+| 5 | [26165] | [Pablo Mussa] | [Pablomussa] | consultas.h |
 | 6 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Matriz de enfrentamientos |
 
 > **Nota:** en los equipos de 5 integrantes, todos contribuyen al módulo 6. En esa fila escriban "Todo el equipo".
@@ -115,11 +115,27 @@ Antes de consultar los demás reportes de esa corrida, calculen a mano los resul
 
 ## 8. Receta del menú
 
-Receta en pseudocódigo del programa principal: el menú y cómo se conecta con cada módulo.
-
-```
-[Inserta aquí tu respuesta]
-```
+1. Crear el arreglo de equipos, el arreglo de partidos y la matriz de goles
+2. Poner totalEquipos en 0 y simulado en falso
+1. Repetir
+   3.1 Mostrar el menú
+   3.2 Leer la opción
+   3.3 Si la opción es 1: llamar a registrarEquipo (módulo 1)
+   3.4 Si no, si la opción es 2: llamar a mostrarEquipos (módulo 1)
+   3.5 Si no, si la opción es 3:
+       3.5.1 Llamar a simularTorneo (módulo 2)
+       3.5.2 Si se pudo simular:
+             - llamar a calcularTabla (módulo 3)
+             - llamar a llenarMatriz (módulo 6)
+   3.6 Si no, si la opción es 4: llamar a mostrarResultados (módulo 2)
+   3.7 Si no, si la opción es 5: llamar a mostrarTabla (módulo 4)
+   3.8 Si no, si la opción es 6: llamar a mostrarCampeon (módulo 4)
+   3.9 Si no, si la opción es 7: llamar a consultarEquipo (módulo 5)
+   3.10 Si no, si la opción es 8: llamar a mostrarReporteMatriz (módulo 6)
+   3.11 Si no, si la opción es 9: mostrar "Hasta luego"
+   3.12 Si no: mostrar "Opción inválida" y volver al menú
+1. Hasta que la opción sea 9
+2. Terminar el programa
 
 ## 9. Documentación individual
 
