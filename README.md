@@ -113,10 +113,6 @@ Antes de consultar los demás reportes de esa corrida, calculen a mano los resul
 [Inserta aquí tu respuesta]
 
 ## 8. Receta del menú
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 1. Crear el arreglo de equipos, el arreglo de partidos y la matriz de goles
 2. Poner totalEquipos en 0 y simulado en falso
 1. Repetir
