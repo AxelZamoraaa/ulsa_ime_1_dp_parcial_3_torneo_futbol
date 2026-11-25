@@ -123,8 +123,8 @@ void mostrarMejorDefensa(const Equipo equipos[], const int goles[][MAX_EQUIPOS])
         }
     }
     cout << " (" << menor << " goles en contra)" << endl;
-=======
 }
+
 void mostrarMatriz(const Equipo equipos[], const int goles[][MAX_EQUIPOS])
 {
     cout << left << setw(17) << "" << right;
@@ -147,5 +147,4 @@ void mostrarMatriz(const Equipo equipos[], const int goles[][MAX_EQUIPOS])
         }
         cout << endl;
     }
->>>>>>> 23467adeddb482ab2cf27b66dfb0779fee1cfda2
 }
