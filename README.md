@@ -8,8 +8,8 @@
 | --- | --- | --- | --- | --- |
 | 1 | [26295] | [Sergio Axel Zamora Coronado] | [AxelZamoraaa] | Registro.h |
 | 2 | [26160] | [Luis Cortes Gallegos] | [luiscortesg08] | Simulación de partidos |
-| 3 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Tabla de posiciones |
-| 4 | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | Clasificación y campeón |
+| 3 | [26209] | [Emilio Gonzalez Viesca] | [Emiliogonzalez-max] | Tabla de posiciones |
+| 4 | [26159] | [Alfredo Josue Coss Cardona] | [Coss360] | Clasificación y campeón |
  5 | [26165] | [Pablo Mussa] | [Pablomussa] | consultas.h |
 
 > **Nota:** en los equipos de 5 integrantes, todos contribuyen al módulo 6. En esa fila escriban "Todo el equipo".
@@ -95,22 +95,44 @@ Antes de consultar los demás reportes de esa corrida, calculen a mano los resul
 
 **Tabla de posiciones:**
 
+```
+1   Aguilas          3 - 3     Chivas
+2   Aguilas          2 - 5     CruzAzul
+3   Aguilas          4 - 0     Leones
+4   Aguilas          0 - 4     Pumas
+5   Aguilas          5 - 3     Tigres
+6   Chivas           2 - 3     CruzAzul
+7   Chivas           1 - 2     Leones
+8   Chivas           5 - 2     Pumas
+9   Chivas           2 - 3     Tigres
+10  CruzAzul         2 - 0     Leones
+11  CruzAzul         5 - 2     Pumas
+12  CruzAzul         5 - 5     Tigres
+13  Leones           1 - 0     Pumas
+14  Leones           3 - 5     Tigres
+15  Pumas            1 - 1     Tigres
+```
+
+Antes de consultar los demás reportes de esa corrida, calculen a mano los resultados.
+
+**Tabla de posiciones:**
+
 | Equipo | PJ | PG | PE | PP | GF | GC | PTS |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
-| [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] | [Inserta aquí tu respuesta] |
+| CruzAzul | 5 | 4 | 1 | 0 | 20 | 11 | 13 |
+| Tigres | 5 | 2 | 2 | 1 | 17 | 16 | 8 |
+| Aguilas | 5 | 2 | 1 | 2 | 14 | 15 | 7 |
+| Leones | 5 | 2 | 0 | 3 | 6 | 12 | 6 |
+| Chivas | 5 | 1 | 1 | 3 | 13 | 13 | 4 |
+| Pumas | 5 | 1 | 1 | 3 | 9 | 12 | 4 |
 
-**Campeón o equipos empatados en el primer lugar:** [Inserta aquí tu respuesta]  
-**Mejor ataque:** [Inserta aquí tu respuesta]  
-**Mejor defensa:** [Inserta aquí tu respuesta]
+**Campeón o equipos empatados en el primer lugar:** CruzAzul, con 13 puntos y sin empate en el primer lugar.  
+**Mejor ataque:** CruzAzul (20 goles a favor)  
+**Mejor defensa:** CruzAzul (11 goles en contra)
 
 **¿La salida del programa coincidió con el cálculo a mano? Si no, ¿qué corrigieron?**
 
-[Inserta aquí tu respuesta]
+Sí coincidió. La tabla, el campeón, el mejor ataque y la mejor defensa que imprimió el programa fueron iguales a los del cálculo a mano. Ejemplo de la comprobación: CruzAzul ganó 4 partidos y empató 1, así que 4 x 3 + 1 x 1 = 13 puntos, y sus goles a favor fueron 5 + 3 + 2 + 5 + 5 = 20.
 
 ## 8. Receta del menú
 1. Crear el arreglo de equipos, el arreglo de partidos y la matriz de goles
